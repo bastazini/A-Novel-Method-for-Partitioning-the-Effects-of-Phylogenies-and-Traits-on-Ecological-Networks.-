@@ -35,8 +35,8 @@ mantel.residuals <- function(A, B){
   }
   R <- sqrt(summary(mod)$r.squared)
   dis.residuals <- as.dist(RES, diag = TRUE)
-  resuts <- list(R = R, Residuals = dis.residuals)
-  return(resuts)
+  results <- list(R = R, Residuals = dis.residuals)
+  return(results)
 }
 ####################################
 ###  Function MATRIX.P1 
